@@ -1,0 +1,139 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'source sans pro', sans-serif;
+  color: #2b2b2b;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1300px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 650px;
+    float: left;
+}
+
+.third-width {
+    width: 430px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 100px;
+    padding: 0px 15px 0px 15px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-family: 'source sans pro', serif;
+    font-size: 30px;
+    padding: 15px 15px 15px 0px;
+}
+
+header span {
+    color: #339933;
+}
+
+#banner img {
+    width: 1300px;
+}
+/***** NAVIGATION in HEADER*****/
+
+nav {
+    float: right;
+    font-family: sans-serif;
+    padding: 15px 0px 15px 0px;
+    margin: 20px 0px 20px 20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #339933;
+    padding: 5px;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 10px 0;
+}
+
+#about h2 {
+    font-family: 'source sans serif', serif;
+    font-size:22px;
+    text-transform:uppercase;
+    color: #339933;
+    margin: auto;
+}
+
+#about p {
+    font-size:21px;
+    line-height:28px;
+    font-weight: 400;
+}
+
+/***** FOOTER *****/
+
+footer .full-width {
+  font-family: sans-serif;
+  font-size: 25;
+  text-align: center;
+}
+
+footer .third-width {
+    border: 1px solid lightgray;
+    height: 250px;
+}
+
+#specials {
+    border-left: none;
+}
+
+#contact {
+    border-right: none;
+}
+
+footer h3 {
+    font-size:18px;
+    text-align: left;
+    line-height:32px;
+    margin: auto;
+    padding: 20px 0px 0px 20px;
+}
+
+footer p {
+    font-family: 'source sans serif', serif;
+    font-size:18px;
+    text-align: left;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+footer .special {
+  color: #339933;
+}
+
+footer h4 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #2b2b2b;
+}
+
+footer h4 span {
+  font-family: cursive;
+  text-transform: lowercase;
+  color: #339933;
+}
